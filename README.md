@@ -74,6 +74,9 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 ![admin](hospital_view.gif)
 
+<br>
+
+
 **Patient View**
 
 ![patient](patient_view.gif)
