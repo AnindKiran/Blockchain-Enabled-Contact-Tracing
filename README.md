@@ -6,7 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -22,7 +21,7 @@
   <br />
 
   <p align="center">
-    An exploration and demo of how we can use Blockchain for Contact Tracing
+    2020. The year we were hit with a pandemic that no one saw coming. Like the age old adage goes, 'Prevention is better than cure'. With this in mind, our project is a PoC that aims to make a decentralised, privacy-preserving contact tracing system. 
     <br />
     <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> -->
     <br />
@@ -40,12 +39,11 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+* [Workflow](#Workflow)  
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -66,54 +64,60 @@ The impact of such policies has been that adoption rates are as low as **10%-15%
 
 This project is a proof of concept of how Blockchain can be used in Contact Tracing, and influence the uptake of digital contact tracing solutions.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <!-- Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `github_username`, `repo_name`, `twitter_handle`, `email` -->
 
+**Hospital View**
+![admin](hospital_view.gif)
 
+**Patient View**
+![patient](patient_view.gif)
 
-<!-- ### Built With
+## Workflow
 
-* []()
-* []()
-* []() -->
+<br>
 
+![workflow](workflow.gif) 
 
+<br>
+
+* Each user has an application running in the background on their phone. The application generates **Bluetooth IDs**.
+* Whenever 2 devices come in contact, these IDs are exchanged.  
+* Patients who are sick or experience symptoms visit the hospital for diagnosis. 
+* The hospital admin generates a password for those patients whose test result is positive. 
+
+<br>
+
+![Alert](alert_generation.gif)
+
+<br>
+
+* Patients with the password have the option to upload their data on the blockchain. 
+* The applications on the other users' phones constantly check the blockchain to see if a Bluetooth ID that they have received is uploaded to the blockchain. 
+* If a match is found, then an alert is sent to the user. 
 
 <!-- GETTING STARTED -->
 <br>
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps:
-
 ### Prerequisites
 
 <!-- The blockchain can either deployed locally on your machine, or you can interact with an already hosted blockchain. You can also host your won blockchain. The specific commands can be found in the relevant subheadings. The following commands are common for both cases.  -->
 
-If you're installing npm or node for the first time, 
+**If you're installing npm or node for the first time:** 
 
-* npm
+
+Run the following commands to update/install the necessary modules such as npm, node, web3 etc.
+
 ```sh
 npm install npm@latest -g
-```
-* node
-```sh
 npm install -g node@10.15.0
-```
-* web3
-```sh
 npm install web3 
-```
-* installing server-side packages: express, cheerio and got
-```sh
 npm install express cheerio got
-```
-
-* solidity
-```sh
 npm install -g solc@0.5.16
 ```
 
@@ -151,10 +155,10 @@ node server.js
 * Now, the server is running, and listening on port 8080. You can change it to any port of your choice. 
 On the browser, run:
 ```sh
-http://localhost:8080/contact_tracing/1
-http://localhost:8080/contact_tracing/2
+http://localhost:8080/tracing/1
+http://localhost:8080/tracing/2
 ```
-The page called contact_tracing1 is the hospital admin's view, and contact_tracing2 is the patient's view. 
+The page called tracing1 is the hospital admin's view, and tracing2 is the patient's view. 
 * Click on "Generate Password" on contact_tracing1. This takes you to the patient persona, where the patient is notified to be unwell. 
 * Authenticate the password. Upload the data onto the blockchain using the upload button. 
 * On the alternate phone, you will be seeing a notification saying the 2nd person has been infected.  
@@ -165,30 +169,15 @@ The page called contact_tracing1 is the hospital admin's view, and contact_traci
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP 
 ## Roadmap
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
+-->
 
 
 <!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+## Contribution
 
 
 
@@ -201,21 +190,20 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGEMENTS 
 ## Acknowledgements
 
 * []()
 * []()
 * []()
-
+-->
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anind-k-621447197/
 [product-screenshot]: images/screenshot.png
