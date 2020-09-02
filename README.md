@@ -81,6 +81,8 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 ![patient](patient_view.gif)
 
+<br>
+
 ## Workflow
 
 <br>
