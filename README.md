@@ -71,9 +71,11 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 `github_username`, `repo_name`, `twitter_handle`, `email` -->
 
 **Hospital View**
+
 ![admin](hospital_view.gif)
 
 **Patient View**
+
 ![patient](patient_view.gif)
 
 ## Workflow
