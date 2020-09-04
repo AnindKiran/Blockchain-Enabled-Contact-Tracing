@@ -44,6 +44,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+* [Hosting Your Own Blockchain](#Hosting-your-own-blockchain)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
@@ -72,14 +73,14 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 **Hospital View**
 
-![admin](hospital_view.gif)
+![admin](readme/hospital_view.gif)
 
 <br>
 
 
 **Patient View**
 
-![patient](patient_view.gif)
+![patient](readme/patient_view.gif)
 
 <br>
 
@@ -87,7 +88,7 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 <br>
 
-![workflow](workflow.gif) 
+![workflow](readme/workflow.gif) 
 
 <br>
 
@@ -98,7 +99,7 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 <br>
 
-![Alert](alert_generation.gif)
+![Alert](readme/alert_generation.gif)
 
 <br>
 
@@ -115,14 +116,15 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 <!-- The blockchain can either deployed locally on your machine, or you can interact with an already hosted blockchain. You can also host your won blockchain. The specific commands can be found in the relevant subheadings. The following commands are common for both cases.  -->
 
-**If you're installing npm or node for the first time:** 
+**If you're installing npm or node for the first time:** <br>
+Visit <a href = "https://nodejs.org/en/download/">this link </a> to download node. Node Packet Manager (npm) is downloaded as well. 
 
 
 Run the following commands to update/install the necessary modules such as npm, node, web3 etc.
-
+(Note that the node downloaded here will not be available locally)
 ```sh
 npm install npm@latest -g
-npm install -g node@10.15.0
+npm install node@10.15.0 
 npm install web3 
 npm install express cheerio got
 npm install -g solc@0.5.16
@@ -184,6 +186,13 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 
 <!-- CONTRIBUTING -->
+## Hosting Your Own Blockchain
+
+In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is about hosting your own smart contract on the Rinkeby Test Network. 
+
+**IMPORTANT: HAVING A METAMASK ACCOUNT WITH BALANCE IS NECESSARY** 
+
+
 ## Contribution
 
 
