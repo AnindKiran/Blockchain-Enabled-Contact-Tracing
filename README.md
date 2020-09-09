@@ -69,11 +69,6 @@ The impact of such policies has been that adoption rates are as low as **10%-15%
 
 This project is a proof of concept of how Blockchain can be used in Contact Tracing, and influence the uptake of digital contact tracing solutions.
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-<!-- Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email` -->
 
 **Hospital View**
 
@@ -125,7 +120,7 @@ Visit <a href = "https://nodejs.org/en/download/">this link </a> to download nod
 
 
 Run the following commands to update/install the necessary modules such as npm, node, web3 etc.
-(Note that the node downloaded here will not be available locally)
+(Note that the node downloaded here will not be available globally)
 ```sh
 npm install npm@latest -g
 npm install node@10.15.0 
