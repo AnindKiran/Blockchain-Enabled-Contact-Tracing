@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="readme/Picture1.svg" alt="Logo" width="80" height="80">
+    <img src="Picture1.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">BLOCKCHAIN ENABLED CONTACT TRACING</h3>
@@ -36,7 +36,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+# Table of Contents
 
 * [About the Project](#about-the-project)
 * [Workflow](#Workflow)  
@@ -44,14 +44,18 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+  * [Getting Test Ether](#Getting-Test-Ether)
+  * [Running The App](#Running-The-App)
 * [Hosting Your Own Blockchain](#Hosting-your-own-blockchain)
+  * [Deploying using Remix IDE](#Deploying-using-Remix-IDE)
+  * [Verifying your Smart Contract](#Verifying-your-Smart-Contract)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 In times of a pandemic like Covid-19, it is crucial that an **effective contact tracing** solution be in place so that we can directly reduce the number of infected people, and thereby saving lives. **Effective contact tracing** implies both that the data is accurate and reliable **and** there is a high percentage of adoption by the public.  
 
 Despite a plethora of existing digital contact tracing solutions, the problems that plague it include:
@@ -73,18 +77,25 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 **Hospital View**
 
-![admin](readme/hospital_view.gif)
+![Admin View](readme/hospital_view.gif)
 
 <br>
 
 
 **Patient View**
 
-![patient](readme/patient_view.gif)
+![Patient View](readme/patient_view.gif)
 
 <br>
 
 ## Workflow
+
+
+* Each user has an application running in the background on their phone. The application generates **Bluetooth IDs**.
+
+* Whenever 2 devices come in contact, these IDs are exchanged. 
+
+* Patients who are sick or experience symptoms visit the hospital for diagnosis. 
 
 <br>
 
@@ -92,27 +103,20 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 <br>
 
-* Each user has an application running in the background on their phone. The application generates **Bluetooth IDs**.
-* Whenever 2 devices come in contact, these IDs are exchanged.  
-* Patients who are sick or experience symptoms visit the hospital for diagnosis. 
 * The hospital admin generates a password for those patients whose test result is positive. 
 
-<br>
-
-![Alert](readme/alert_generation.gif)
-
-<br>
-
 * Patients with the password have the option to upload their data on the blockchain. 
+
 * The applications on the other users' phones constantly check the blockchain to see if a Bluetooth ID that they have received is uploaded to the blockchain. 
+
 * If a match is found, then an alert is sent to the user. 
 
 <!-- GETTING STARTED -->
 <br>
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
+## Prerequisites
 
 <!-- The blockchain can either deployed locally on your machine, or you can interact with an already hosted blockchain. You can also host your won blockchain. The specific commands can be found in the relevant subheadings. The following commands are common for both cases.  -->
 
@@ -130,14 +134,14 @@ npm install express cheerio got
 npm install -g solc@0.5.16
 ```
 
-#### Metamask 
+### Metamask 
 You need to have a browser extension called **Metamask** installed. This is to interact with the hosted blockchain. You can download it from the following link:
 <br>
 <a href = "https://metamask.io/">Download Metamask</a>
 
 <br>
 
-### Installation
+## Installation
 
 Clone the repo in your desired folder.
 ```sh
@@ -146,16 +150,21 @@ git clone https://github.com/github_username/repo_name.git
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+# Usage
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
+
+## Getting Test Ether
 * The blockchain smart contract is deployed on the Rinkeby Testnet. You will be interacting with the existing smart contract, and for that you need some test ether. The following steps will tell you how to do so: 
-    * Click on the following <a href = "">link</a>
-    * Copy the address given there and make a post on either twitter or facebook. The post can be private. 
-    * Copy the link of the post and past it <a href = "">here</a>
-    * Request for 3 ether in 8 hours (as it's the fastest, and sufficient)
-    * In your metamask wallet, you should be see 3 ether deposited in your account. 
+    * Click on the Metamask extension. Copy the 'address'(it's a reference to your Ethereum address)
+    * Copy this address given there and make a post on either twitter or facebook. 
+    > **DISCLAIMER:** <br> The address is meant to identify you in a public way, so there is no security threat posed by making a post. However, it may allow people who know you to associate you with the address and remove the element of anonymity. 
 
+    * Copy the link of the post and paste it <a href = "https://faucet.rinkeby.io/" target = "_blank">here</a>.
+    * Request for 3 ether in 8 hours (as it's the fastest, and sufficient).
+    * In your Metamask wallet, you should be see 3 ether deposited in your account. 
+    > **NOTE:** <br> The ether you receive is test ether and has no monetary value. 
 
+## Running The App
 * Enter the directory where the repo exists. Open the terminal/command prompt in that folder. 
 * Enter the following command: 
 ```sh
@@ -168,51 +177,102 @@ http://localhost:8080/tracing/1
 http://localhost:8080/tracing/2
 ```
 The page called tracing1 is the hospital admin's view, and tracing2 is the patient's view. 
-* Click on "Generate Password" on contact_tracing1. This takes you to the patient persona, where the patient is notified to be unwell. 
-* Authenticate the password. Upload the data onto the blockchain using the upload button. 
+* Click on "Generate Password" on contact_tracing1. This takes you to the patient persona, where the patient is notified to be unwell.
+
+<br>
+
+![Alert Notification sent to Case](readme/alert_generation.gif)
+
+<br>
+
+
+* Authenticate the password. Upload the data onto the blockchain using the 'Upload' button. 
+* Clicking on the 'Upload' button opens up a Metamask windows asking you to confirm the transaction. Click on 'Confirm'.
+
+<br>
+
+![Authentication and Upload](readme/authenticate.gif)
+
+<br>
+
+
 * On the alternate phone, you will be seeing a notification saying the 2nd person has been infected.  
+<br>
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
+![Notification on Contact's Phone](readme/infected_notification.gif)
 
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
-
-
-<!-- ROADMAP 
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
--->
+<br>
 
 
-<!-- CONTRIBUTING -->
-## Hosting Your Own Blockchain
 
-In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is about hosting your own smart contract on the Rinkeby Test Network. 
+# Hosting Your Own Blockchain
+In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is so that you can edit the contact_tracing.sol file (i.e. the smart contract of this Contact Tracing solution) and host it on a Test Network yourself. 
 
-**IMPORTANT: HAVING A METAMASK ACCOUNT WITH BALANCE IS NECESSARY** 
+<br>
+
+## Deploying using Remix IDE
+> Having a Metamask account with balance is **necessary**. 
+
+* <a href = "">This link (to Remix online IDE)</a> redirects you to online IDE Remix. On the 'File Explorers' Pane, click on the '+' symbol to create a new file. Name it, and copy the contents from the contact_tracing.sol in this repo to the online IDE. 
+
+* After making the necessary edits, on the left-hand pane, click on the 'Solidity Compiler' button. 
 
 
-## Contribution
+* Click on the 'Compile' button to compile the file. 
 
 
+>NOTE: <br> You can interact with the functions that you have created right in the Remix IDE, after compilation. You will see an interface to interact with your Smart Contract on the left hand pane.  
+
+
+* To deploy the smart contract, on the left-hand pane, click on the 'Deploy & run transactions' option. Click on the 'Injected Web3' option as shown below, and enter your Metamask password. 
+
+<br>
+
+![Remix](readme/contract_remix.gif)
+
+<br>
+
+* After you enter your password, your account number will appear in the account tab. The 'Deploy' button will be enabled below. 
+
+
+* Clicking on deploy will show up a confirmation on Metamask. Once you click on 'Confirm', the contract will be deployed. 
+
+<br>
+
+![Deploy](readme/deployment.png)
+
+<br>
+
+* You will find the address at which the contract can be found after deployment. 
+
+<br>
+
+## Verifying your Smart Contract
+
+* Click on <a>this link</a> to go to Etherscan. This is what allows you to see your deployed Smart Contract, and all it's transactions. As the Smart Contract has not yet been verified you will not be able to find it. 
+
+* On Etherscan, enter your public Etheruem address found on Metamask. Find the transaction that deployed the contract (the transaction number is a hash number). 
+
+* There is a 'Verify and Publish' button in the 'Code' tab. Click it. 
+
+* Copy and paste the solidity code exactly as it is written. 
+
+* Fill in the name of the parent contract for contract name, and specify the compiler that was used. We did not add any libraries so we can scroll to the bottom and verify.
+
+* After a successful verification, you can see the Smart Contract Address. 
+
+* Copy the address and change the value of this address in the files 'index3.js' and 'index4.js' in the 'static' folder. Now, the phones are interacting with this new blockchain. 
+
+* You can also use this address for a dApp that you develop independently. 
+
+<br>
 
 <!-- CONTACT -->
-## Contact
+# Contact
 
 Anind Kiran  - anindk1999@hotmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS 
-## Acknowledgements
-
-* []()
-* []()
-* []()
--->
 
 
 
@@ -223,3 +283,14 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anind-k-621447197/
 [product-screenshot]: images/screenshot.png
+
+<!-- CONTRIBUTING -->
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
+
+<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
+
+<!-- ROADMAP 
+## Roadmap
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+ -->
