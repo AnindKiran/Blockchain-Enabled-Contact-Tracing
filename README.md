@@ -1,16 +1,6 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
@@ -27,7 +17,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
 # Table of Contents
 
 * [About the Project](#about-the-project)
@@ -46,8 +35,6 @@
 
 
 
-
-<!-- ABOUT THE PROJECT -->
 # About The Project
 In times of a pandemic like Covid-19, it is crucial that an **effective contact tracing** solution be in place so that we can directly reduce the number of infected people, and thereby saving lives. **Effective contact tracing** implies both that the data is accurate and reliable **and** there is a high percentage of adoption by the public.  
 
@@ -99,14 +86,13 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 * If a match is found, then an alert is sent to the user. 
 
-<!-- GETTING STARTED -->
+
 <br>
 
 # Getting Started
 
 ## Prerequisites
 
-<!-- The blockchain can either deployed locally on your machine, or you can interact with an already hosted blockchain. You can also host your won blockchain. The specific commands can be found in the relevant subheadings. The following commands are common for both cases.  -->
 
 **If you're installing npm or node for the first time:** <br>
 Visit <a href = "https://nodejs.org/en/download/">this link </a> to download node. Node Packet Manager (npm) is downloaded as well. 
@@ -137,7 +123,6 @@ git clone https://github.com/github_username/repo_name.git
 ```
 
 
-<!-- USAGE EXAMPLES -->
 # Usage
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
 
@@ -265,14 +250,11 @@ Digital Contact Tracing is what enables this to be possible. It is reliant and a
 
 Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solutions has an immediate impact in terms of saving lives now, and in the future as well. 
 
-<!-- CONTACT -->
+
 # Contact
 
 Anind Kiran  - anindk1999@hotmail.com
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anind-k-621447197/
