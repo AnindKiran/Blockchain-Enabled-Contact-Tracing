@@ -240,6 +240,7 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 
 <br>
 <br>
+
 # Eventual Impact
 
 In scientific terminology, a "case" is a person who is confirmed to have a disease. When we're talking about a disease like CoVid-19, a "contact" is that person who has been in contact for at least 15 minutes, at a distance of approximately around 6 feet or lesser from a case. Contact Tracing is how we trace contacts, and provide an early warning, so that they don't pass on the infection. For a disease with an exponential rise of a quadratic nature, if we can prevent just one infection per person, we are transforming an exponential rise to a linear rise. 
@@ -249,6 +250,7 @@ Let's take the example of Alice, and assume she has been infected with CoVid. Sh
 Digital Contact Tracing is what enables this to be possible. It is reliant and at least as accurate as traditional tracing. Using technology such as blockchain increases trust in users, ultimately leading to a much higher adoption rate. This is extremely relevant today, as for digital tracing to work, adoption rates must be much higher than the current rates.  
 
 Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solutions has an immediate impact in terms of saving lives now, and in the future as well. 
+
 <br>
 
 # Contact
