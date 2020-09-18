@@ -22,14 +22,6 @@
 
   <p align="center">
     2020. The year we were hit with a pandemic that no one saw coming. Like the age old adage goes, 'Prevention is better than cure'. With this in mind, our project is a PoC that aims to make a decentralised, privacy-preserving contact tracing system. 
-    <br />
-    <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> -->
-    <br />
-    <!-- <a href="https://github.com/github_username/repo_name">View Demo</a> -->
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </p>
 
@@ -49,8 +41,9 @@
 * [Hosting Your Own Blockchain](#Hosting-your-own-blockchain)
   * [Deploying using Remix IDE](#Deploying-using-Remix-IDE)
   * [Verifying your Smart Contract](#Verifying-your-Smart-Contract)
+* [Eventual Impact](#eventual-impact)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
@@ -262,14 +255,12 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 
 <br>
 
+# Eventual Impact
+
 <!-- CONTACT -->
 # Contact
 
 Anind Kiran  - anindk1999@hotmail.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -277,15 +268,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/anind-k-621447197/
-[product-screenshot]: images/screenshot.png
 
-<!-- CONTRIBUTING -->
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
-<!-- ROADMAP 
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
- -->
