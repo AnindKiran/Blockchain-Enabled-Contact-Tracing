@@ -36,7 +36,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-  * [Getting Test Ether](#Getting-Test-Ether)
+  * [Obtaining Test Ether](#Obtaining-Test-Ether)
   * [Running The App](#Running-The-App)
 * [Hosting Your Own Blockchain](#Hosting-your-own-blockchain)
   * [Deploying using Remix IDE](#Deploying-using-Remix-IDE)
@@ -141,7 +141,7 @@ git clone https://github.com/github_username/repo_name.git
 # Usage
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
 
-## Getting Test Ether
+## Obtaining Test Ether
 * The blockchain smart contract is deployed on the Rinkeby Testnet. You will be interacting with the existing smart contract, and for that you need some test ether. The following steps will tell you how to do so: 
     * Click on the Metamask extension. Copy the 'address'(it's a reference to your Ethereum address)
     * Copy this address given there and make a post on either twitter or facebook. 
@@ -256,6 +256,14 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 <br>
 
 # Eventual Impact
+
+In scientific terminology, a "case" is a person who is confirmed to have a disease. When we're talking about a disease like CoVid-19, a "contact" is that person who has been in contact for at least 15 minutes, at a distance of approximately around 6 feet or lesser from a case. Contact Tracing is how we trace contacts, and provide an early warning, so that they don't pass on the infection. For a disease with an exponential rise of a quadratic nature, if we can prevent just one infection per person, we are transforming an exponential spread to a linear spread. 
+
+Let's take the example of Alice, and assume she has been infected with CoVid. She spreads the disease to 2 people, and each person she meets spreads it to 2 people. For the sake of simplicity, let's say they spread it only once, and each person who contracts the disease spreads to 2 more people the next day. **After just 10 days, a MASSIVE 1024 people would be infected!**. In the same scenario, if each person spreads it to 1 person as opposed to 2 people, after 10 days, the number of infected people will be as LOW as **10 people (relatively much lower)**. 
+
+Digital Contact Tracing is what enables this to be possible. It is reliant and at least as accurate as traditional tracing. Using technology such as blockchain increases trust in users, ultimately leading to a much higher adoption rate. This is extremely relevant today, as for digital tracing to work, adoption rates must be much higher than the current rates.  
+
+Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solutions has an immediate impact in terms of saving lives now, and in the future as well. 
 
 <!-- CONTACT -->
 # Contact
