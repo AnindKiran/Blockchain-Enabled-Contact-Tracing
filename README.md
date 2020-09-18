@@ -15,7 +15,7 @@
   </p>
 </p>
 
-
+<br>
 
 # Table of Contents
 
@@ -33,7 +33,7 @@
 * [Eventual Impact](#eventual-impact)
 * [Contact](#contact)
 
-
+<br>
 
 # About The Project
 In times of a pandemic like Covid-19, it is crucial that an **effective contact tracing** solution be in place so that we can directly reduce the number of infected people, and thereby saving lives. **Effective contact tracing** implies both that the data is accurate and reliable **and** there is a high percentage of adoption by the public.  
@@ -87,7 +87,7 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 * If a match is found, then an alert is sent to the user. 
 
 
-<br>
+<br><br>
 
 # Getting Started
 
@@ -121,7 +121,7 @@ Clone the repo in your desired folder.
 ```sh
 git clone https://github.com/github_username/repo_name.git
 ```
-
+<br><br>
 
 # Usage
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
@@ -176,7 +176,7 @@ The page called tracing1 is the hospital admin's view, and tracing2 is the patie
 
 <br>
 
-
+<br>
 
 # Hosting Your Own Blockchain
 In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is so that you can edit the contact_tracing.sol file (i.e. the smart contract of this Contact Tracing solution) and host it on a Test Network yourself. 
@@ -239,7 +239,7 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 * You can also use this address for a dApp that you develop independently. 
 
 <br>
-
+<br>
 # Eventual Impact
 
 In scientific terminology, a "case" is a person who is confirmed to have a disease. When we're talking about a disease like CoVid-19, a "contact" is that person who has been in contact for at least 15 minutes, at a distance of approximately around 6 feet or lesser from a case. Contact Tracing is how we trace contacts, and provide an early warning, so that they don't pass on the infection. For a disease with an exponential rise of a quadratic nature, if we can prevent just one infection per person, we are transforming an exponential rise to a linear rise. 
@@ -249,7 +249,7 @@ Let's take the example of Alice, and assume she has been infected with CoVid. Sh
 Digital Contact Tracing is what enables this to be possible. It is reliant and at least as accurate as traditional tracing. Using technology such as blockchain increases trust in users, ultimately leading to a much higher adoption rate. This is extremely relevant today, as for digital tracing to work, adoption rates must be much higher than the current rates.  
 
 Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solutions has an immediate impact in terms of saving lives now, and in the future as well. 
-
+<br>
 
 # Contact
 
