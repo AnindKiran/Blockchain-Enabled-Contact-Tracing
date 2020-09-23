@@ -110,6 +110,7 @@ npm install express cheerio got
 ### Metamask 
 You need to have a browser extension called **Metamask** installed. This is to interact with the hosted blockchain. You can download it from the following link:
 <br>
+
 <a href = "https://metamask.io/">Download Metamask</a>
 
 <br>
@@ -167,23 +168,21 @@ The page called tracing1 is the hospital admin's view, and tracing2 is the patie
 
 <br>
 
+* On the alternate phone, you will be seeing a notification saying the 2nd person has been infected.
 
-* On the alternate phone, you will be seeing a notification saying the 2nd person has been infected.  
 <br>
 
 ![Notification on Contact's Phone](readme/infected_notification.gif)
 
 <br>
 
-> **VIEWING THE TRANSACTIONS:** <br> You can click on the following link to view all transactions that have been made since the creation of the contract. The link will also include all the transactions that other users of the "contact_tracing" Smart Contract that is hosted in this repository. 
+> **VIEWING THE TRANSACTIONS:** <br> You can click on the following link to view all transactions that have been made since the creation of the contract. The link will also include all the transactions that other users of the "contact_tracing" Smart Contract that is hosted in this repository. <br>
 <a href = "https://rinkeby.etherscan.io/address/0xb7eeEDe8968646A791198fb7169Ef9a9964721B3" target = "_blank"> View Transactions <a>
 
 <br>
 
 # Hosting Your Own Blockchain
 In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is so that you can edit the contact_tracing.sol file (i.e. the smart contract of this Contact Tracing solution) and host it on a Test Network yourself. 
-
-<br>
 
 ## Deploying using Remix IDE
 > Having a Metamask account with balance is **necessary**. 
