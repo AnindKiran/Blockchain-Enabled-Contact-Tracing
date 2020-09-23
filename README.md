@@ -175,6 +175,9 @@ The page called tracing1 is the hospital admin's view, and tracing2 is the patie
 
 <br>
 
+> **VIEWING THE TRANSACTIONS:** <br> You can click on the following link to view all transactions that have been made since the creation of the contract. The link will also include all the transactions that other users of the "contact_tracing" Smart Contract that is hosted in this repository. 
+<a href = "https://rinkeby.etherscan.io/address/0xb7eeEDe8968646A791198fb7169Ef9a9964721B3" target = "_blank"> View Transactions <a>
+
 <br>
 
 # Hosting Your Own Blockchain
