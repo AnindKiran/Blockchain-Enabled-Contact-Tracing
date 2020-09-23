@@ -148,8 +148,8 @@ On the browser, run:
 http://localhost:8080/tracing/1
 http://localhost:8080/tracing/2
 ```
-The page called tracing1 is the hospital admin's view, and tracing2 is the patient's view. 
-* Click on "Generate Password" on contact_tracing1. This takes you to the patient persona, where the patient is notified to be unwell.
+The page called tracing1.html is the hospital "Admin View", and tracing2.html is the "Patient View". 
+* Click on "Generate Password" on the "Admin Page". This takes you to the patient persona, where the patient is notified to be unwell.
 
 <br>
 
@@ -175,18 +175,18 @@ The page called tracing1 is the hospital admin's view, and tracing2 is the patie
 
 <br>
 
-> **VIEWING THE TRANSACTIONS:** <br> You can click on the following link to view all transactions that have been made since the creation of the contract. The link will also include all the transactions that other users of the "contact_tracing" Smart Contract that is hosted in this repository. <br>
+> **VIEWING THE TRANSACTIONS:** <br> You can click on the following link to view all transactions that have been made since the creation of the contract. The link will also include all the transactions that other users of the "tracing.sol" Smart Contract that is hosted in this repository. <br>
 <a href = "https://rinkeby.etherscan.io/address/0xb7eeEDe8968646A791198fb7169Ef9a9964721B3" target = "_blank"> View Transactions <a>
 
 <br>
 
 # Hosting Your Own Blockchain
-In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is so that you can edit the contact_tracing.sol file (i.e. the smart contract of this Contact Tracing solution) and host it on a Test Network yourself. 
+In this project you interacted with a smart contract hosted on the Rinkeby Test Network. This section is so that you can edit the "tracing.sol" file (i.e. the smart contract of this Contact Tracing solution) and host it on a Test Network yourself. 
 
 ## Deploying using Remix IDE
 > Having a Metamask account with balance is **necessary**. 
 
-* <a href = "">This link (to Remix online IDE)</a> redirects you to online IDE Remix. On the 'File Explorers' Pane, click on the '+' symbol to create a new file. Name it, and copy the contents from the contact_tracing.sol in this repo to the online IDE. 
+* <a href = "">This link (to Remix online IDE)</a> redirects you to online IDE Remix. On the 'File Explorers' Pane, click on the '+' symbol to create a new file. Name it, and copy the contents from the "tracing.sol" in this repo to the online IDE. 
 
 * After making the necessary edits, on the left-hand pane, click on the 'Solidity Compiler' button. 
 
