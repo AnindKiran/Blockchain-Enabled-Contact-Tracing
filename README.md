@@ -119,7 +119,7 @@ You need to have a browser extension called **Metamask** installed. This is to i
 
 Clone the repo in your desired folder.
 ```sh
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/AnindKiran/Blockchain-Enabled-Contact-Tracing
 ```
 <br>
 
