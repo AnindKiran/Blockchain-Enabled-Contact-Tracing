@@ -105,7 +105,6 @@ npm install npm@latest -g
 npm install node@10.15.0 
 npm install web3 
 npm install express cheerio got
-npm install -g solc@0.5.16
 ```
 
 ### Metamask 
