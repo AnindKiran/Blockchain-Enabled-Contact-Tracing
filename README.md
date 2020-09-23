@@ -127,15 +127,15 @@ git clone https://github.com/github_username/repo_name.git
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
 
 ## Obtaining Test Ether
-* The blockchain smart contract is deployed on the Rinkeby Testnet. You will be interacting with the existing smart contract, and for that you need some test ether. The following steps will tell you how to do so: 
-    * Click on the Metamask extension. Copy the 'address'(it's a reference to your Ethereum address)
-    * Copy this address given there and make a post on either twitter or facebook. 
-    > **DISCLAIMER:** <br> The address is meant to identify you in a public way, so there is no security threat posed by making a post. However, it may allow people who know you to associate you with the address and remove the element of anonymity. 
+The blockchain smart contract is deployed on the Rinkeby Testnet. You will be interacting with the existing smart contract, and for that you need some test ether. The following steps will tell you how to obtain test ether: 
+  * Click on the Metamask extension. Copy the 'address'(it's a reference to your Ethereum address)
+  * Copy this address given there and make a post on either twitter or facebook. 
+  > **DISCLAIMER:** <br> The address is meant to identify you in a public way, so there is no security threat posed by making a post. However, it may allow people who know you to associate you with the address and remove the element of anonymity. 
 
-    * Copy the link of the post and paste it <a href = "https://faucet.rinkeby.io/" target = "_blank">here</a>.
-    * Request for 3 ether in 8 hours (as it's the fastest, and sufficient).
-    * In your Metamask wallet, you should be see 3 ether deposited in your account. 
-    > **NOTE:** <br> The ether you receive is test ether and has no monetary value. 
+  * Copy the link of the post and paste it <a href = "https://faucet.rinkeby.io/" target = "_blank">here</a>.
+  * Request for 3 ether in 8 hours (as it's the fastest, and sufficient).
+  * In your Metamask wallet, you should be see 3 ether deposited in your account. 
+  > **NOTE:** <br> The ether you receive is test ether and has no monetary value. 
 
 ## Running The App
 * Enter the directory where the repo exists. Open the terminal/command prompt in that folder. 
