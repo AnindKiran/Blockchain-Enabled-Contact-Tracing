@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patient View</title>
+
+<style>
+
+.smartphone {
+  position: relative;
+  width: 455px;
+  height: 845px;
+  margin: auto;
+  margin-top: -15px;
+  border: 16px rgb(47, 43, 104) solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 45px;
+  
+}
+
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(124, 124, 124);
+  border-radius: 10px;
+}
+
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.575);
+  border-radius: 50%;
+}
+
+.smartphone .contentOwn {
+  width: 455px;
+  height: 845px;
+  background: white;
+}
+
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.splitOwn {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.leftOwn {
+  left:0;
+  background-color: #ff64ea(133, 70, 250);
+}
+
+.rightOwn {
+  right: 0;
+  background-color: #7f62ff;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+</style>  
+</head>
+<body> 
+
+  <div class="splitOwn leftOwn" id = "fixed" style="margin-left:400px;">
+    <button id = 'toggle' onclick = "hideShow()" style = "background-color: black;color:white;z-index: -1;float:right;border-radius:10px; height: 100px; width: 100px;">Show 2nd Person's view</button>
+
+        <img src="../pictures/female.jpg" alt="Contact Person" height="100" width="100"> 
+
+        <div class="centered">
+          <div class="smartphone">
+            <div class="contentOwn">
+              <iframe src="http://localhost:8080/tracing/3" style="border:none;height:100%;width:100%;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="splitOwn rightOwn" id = "disappear" style = "display: none;">
+        <img src="../pictures/bob.png" alt="Contact Person" height="100" width="100"> 
+        <div class="centered">
+          <div class="smartphone">
+            <div class="contentOwn">
+                <iframe src="http://localhost:8080/tracing/4" style="border:none;height:100%;width:100%;"></iframe>
+            </div>
+          </div>
+        </div>
+  </div>
+
+
+  <script>
+  var oddEven = 0;
+  function hideShow(){
+    if(oddEven%2 == 0){
+      document.getElementById("disappear").style.display = "block";
+      document.getElementById("fixed").style.marginLeft = "0px";
+      document.getElementById("toggle").innerHTML = "Hide 2nd Person's view";
+      document.getElementById("toggle").style.backgroundColor = "Green";
+    }
+    else{
+      document.getElementById("disappear").style.display = "none";
+      document.getElementById("fixed").style.marginLeft = "400px";
+      document.getElementById("toggle").innerHTML = "Show 2nd Person's view";
+      document.getElementById("toggle").style.backgroundColor = "Black";
+    }
+    oddEven++;
+    } 
+  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+</body>
+</html>

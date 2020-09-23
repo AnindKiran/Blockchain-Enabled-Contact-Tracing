@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <link href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+    <style>
+      .rows-of-test-result{
+        color: green;
+      }
+
+      .mb-0{
+        height:5%;
+        text-align: center;
+      }
+    </style>
+</head>
+
+<body style='background-color: black;'>
+  <img src="../pictures/MicrosoftTeams-image(1).png" class="img-fluid">
+   <div class = "card">
+    <div class="card-body" style =  "background-color: black;color: white;text-align: center;font-size: 180%;padding: 2%;">
+        <div>
+          Welcome, John Doe
+        </div>
+        <div><br>
+          ADMIN
+        </div><br>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <div class="card" style="height: 100%;">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style = "padding: 1%;">
+                Patient Database
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Patient ID</th>
+                <th>Appointment</th>
+                <th>Doctor ID</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ABC</td>
+                <td>12:30 PM</td>
+                <td>#43</td>
+              </tr>
+              <tr>
+                <td>RCB</td>
+                <td>12:45 PM</td>
+                <td>#100</td>
+              </tr>
+              <tr>
+                <td>BFC</td>
+                <td>1:30 PM</td>
+                <td>#35</td>
+              </tr>
+              <tr>
+                <td>MUN</td>
+                <td>1:30 PM</td>
+                <td>#35</td>
+              </tr>
+              <tr>
+                <td>IND</td>
+                <td>1:30 PM</td>
+                <td>#35</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style = "padding: 1%;">
+                Covid-19 Test Results
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Patient ID</th>
+                    <th>Status</th>
+                    <th>Notification</th>
+                  </tr>
+                </thead>
+                <tbody class = "rows-of-test-result">
+                  <tr style = "color: green;">
+                    <td>#3251</td>
+                    <td>NEGATIVE</td>
+                  </tr>
+                  <tr style = "color: red;">
+                    <td>#4321</td>
+                    <td>POSITIVE</td>
+                    <td>
+                    <a href="http://localhost:8080/tracing/2" target="_blank">
+                    <button onclick="generatePassword()" class = "btn" style = "background-color:red; padding:0.25%;color: white;"> 
+                        Generate Password
+                    </button>
+                    </a>
+                   </td>
+                  </tr>
+                  <tr>
+                      <td>#5436</td>
+                      <td>NEGATIVE</td>
+                  </tr>
+                  <tr>
+                      <td>#9465</td>
+                      <td>NEGATIVE</td>
+                  </tr>
+                  <tr>
+                      <td>#7263</td>
+                      <td>NEGATIVE</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+   </div>
+</body>
+    <script src = "../static/index1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
