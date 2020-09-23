@@ -63,7 +63,7 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 <br>
 
-## Workflow
+# Workflow
 
 
 * Each user has an application running in the background on their phone. The application generates **Bluetooth IDs**.
