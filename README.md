@@ -61,7 +61,6 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 
 ![Patient View](readme/patient_view.gif)
 
-<br>
 
 ## Workflow
 
@@ -87,7 +86,7 @@ This project is a proof of concept of how Blockchain can be used in Contact Trac
 * If a match is found, then an alert is sent to the user. 
 
 
-<br><br>
+<br>
 
 # Getting Started
 
@@ -120,7 +119,7 @@ Clone the repo in your desired folder.
 ```sh
 git clone https://github.com/github_username/repo_name.git
 ```
-<br><br>
+<br>
 
 # Usage
 * Installing Metamask prompts you to create a user account. Create a user account, and keep your password and user ID safe. 
@@ -239,7 +238,7 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 * You can also use this address for a dApp that you develop independently. 
 
 <br>
-<br>
+
 
 # Eventual Impact
 
