@@ -113,7 +113,6 @@ You need to have a browser extension called **Metamask** installed. This is to i
 
 <a href = "https://metamask.io/">Download Metamask</a>
 
-<br>
 
 ## Installation
 
@@ -219,7 +218,7 @@ In this project you interacted with a smart contract hosted on the Rinkeby Test 
 
 * You will find the address at which the contract can be found after deployment. 
 
-<br>
+
 
 ## Verifying your Smart Contract
 
