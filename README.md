@@ -250,7 +250,7 @@ Let's take the example of Alice, and assume she has been infected with CoVid. Sh
 
 Digital Contact Tracing is what enables this to be possible. It is reliant and at least as accurate as traditional tracing. Using technology such as blockchain increases trust in users, ultimately leading to a much higher adoption rate. This is extremely relevant today, as for digital tracing to work, adoption rates must be much higher than the current rates.  
 
-Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solutions has an immediate impact in terms of saving lives now, and in the future as well. 
+Ultimately, an effective, trustworthy Digital Contact Tracing solution such as the proposed solution has an immediate impact in terms of saving lives now, and in the future as well. 
 
 <br>
 
