@@ -260,5 +260,5 @@ Anind Kiran  - anindk1999@hotmail.com
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/anind-k-621447197/
+[linkedin-url]: https://www.linkedin.com/in/anind-kiran-621447197
 
